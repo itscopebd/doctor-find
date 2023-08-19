@@ -15,3 +15,8 @@
 body{
     font-family: 'Manrope', sans-serif;
 }
+@layer components{
+   .header{
+    @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover
+   }
+}
