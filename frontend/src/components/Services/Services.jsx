@@ -5,7 +5,7 @@ import icon03 from "../../assets/images/icon03.png";
 import { FaArrowRight } from 'react-icons/fa';
 const Services = () => {
     return (
-        <div className='container mx-auto my-20'>
+        <div className='container mx-auto my-24'>
             <div className='w-3/12 mx-auto text-center'>
                 <h3 className='text-4xl font-semibold leading-10'>Providing the best medicale service</h3>
                 <p className='mt-[20px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
