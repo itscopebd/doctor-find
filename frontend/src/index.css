@@ -19,4 +19,10 @@ body{
    .header{
     @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover
    }
+   .hero_section{
+    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover
+   }
+   .custom__btn{
+    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600]
+   }
 }
