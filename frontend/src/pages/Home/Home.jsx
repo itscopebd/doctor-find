@@ -5,6 +5,8 @@ import AboutUs from '../../components/AboutUs/AboutUs';
 import OurMedicaleServiceList from '../../components/ourMedicaleService/ourMedicaleServiceList';
 import Feature from '../../components/feature/Feature';
 import OurDoctorsList from '../../components/ourDoctors/OurDoctorsList';
+import FaqList from '../../components/faq/FaqList';
+
 
 const Home = () => {
     return (
@@ -15,6 +17,7 @@ const Home = () => {
            <OurMedicaleServiceList></OurMedicaleServiceList>
            <Feature></Feature>
            <OurDoctorsList></OurDoctorsList>
+           <FaqList></FaqList>
         </div>
     );
 };
