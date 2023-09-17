@@ -26,3 +26,15 @@ body{
     @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600]
    }
 }
+
+
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute !important;
+    bottom: 0 !important;
+}
+.swiper-slide.swiper-slide-active {
+    background: #D0F0F3 !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}

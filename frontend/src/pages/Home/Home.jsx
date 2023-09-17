@@ -6,6 +6,7 @@ import OurMedicaleServiceList from '../../components/ourMedicaleService/ourMedic
 import Feature from '../../components/feature/Feature';
 import OurDoctorsList from '../../components/ourDoctors/OurDoctorsList';
 import FaqList from '../../components/faq/FaqList';
+import Testimonial from '../../components/testimonial/Testimonial';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
            <Feature></Feature>
            <OurDoctorsList></OurDoctorsList>
            <FaqList></FaqList>
+           <Testimonial></Testimonial>
         </div>
     );
 };

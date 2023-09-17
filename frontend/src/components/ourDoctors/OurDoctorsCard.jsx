@@ -3,7 +3,6 @@ import star from "../../assets/images/star.png";
 import { FaArrowRight } from 'react-icons/fa';
 const OurDoctorsCard = ({ doctor }) => {
     const { avgRating, hospital, name, photo, specialty, totalPatients, totalRating } = doctor;
-    console.log(doctor)
     return (
         <div className="card">
            <img src={photo} alt="Shoes" />
